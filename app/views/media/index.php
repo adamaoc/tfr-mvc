@@ -45,12 +45,12 @@
 
         <div class="col-sm-12">
           <h4>I'm With Marco TX</h4>
-          <img src="./public/images/media/imWithMarco_TX_Twitter.jpg" alt="I'm with marco of texas banner" width="100%" />
+          <img src="./public/images/media/ImWithMarco_TX_Twitter.jpg" alt="I'm with marco of texas banner" width="100%" />
         </div>
 
         <div class="col-sm-12">
           <h4>I'm With #TeamMarcoTX</h4>
-          <img src="./public/images/media/imWithMarco_TX.jpg" alt="I'm with team marco of Texas banner" width="100%" />
+          <img src="./public/images/media/ImWithMarco_TX.jpg" alt="I'm with team marco of Texas banner" width="100%" />
         </div>
       </div>
 

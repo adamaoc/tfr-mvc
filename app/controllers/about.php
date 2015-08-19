@@ -6,6 +6,6 @@ class About extends Controller
 	{
     $pagetitle = "What we're about";
 		$innerpage = true;
-		$this->view('about/index', ['pagetitle' => $pagetitle, 'innerpage' => $innerpage]);
+		$this->view('about/index', array('pagetitle' => $pagetitle, 'innerpage' => $innerpage));
 	}
 }

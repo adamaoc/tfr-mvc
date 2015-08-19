@@ -6,6 +6,6 @@ class Media extends Controller
 	{
     $pagetitle = "#TeamMarcoTX Media";
 		$innerpage = true;
-		$this->view('media/index', ['pagetitle' => $pagetitle, 'innerpage' => $innerpage]);
+		$this->view('media/index', array('pagetitle' => $pagetitle, 'innerpage' => $innerpage));
 	}
 }

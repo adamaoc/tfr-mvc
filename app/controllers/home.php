@@ -7,6 +7,6 @@ class Home extends Controller
 		$newsFeed = $this->model('Newsfeed');
 		$feed = $newsFeed->getFeed();
 
-		$this->view('home/index', ['feed' => $feed]);
+		$this->view('home/index', array('feed' => $feed));
 	}
 }

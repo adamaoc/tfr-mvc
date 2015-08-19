@@ -6,6 +6,6 @@ class Rubio extends Controller
 	{
     $pagetitle = "More about Marco Rubio";
 		$innerpage = true;
-		$this->view('rubio/index', ['pagetitle' => $pagetitle, 'innerpage' => $innerpage]);
+		$this->view('rubio/index', array('pagetitle' => $pagetitle, 'innerpage' => $innerpage));
 	}
 }

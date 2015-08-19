@@ -1,0 +1,356 @@
+$icon-font-path: "../fonts/";
+$header-img: "../images/cover-twitter-logo-TX.jpg";
+
+$twitter: #55acee;
+$facebook: #3b5998;
+$youtube: #bb0000;
+$instagram: #517fa4;
+
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+$red: #c91e3f;
+$blue: #091f3f;
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #f8f8f8;
+    color: #333;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #f8f8f8;
+    color: #333;
+    font-size: 16px;
+
+    font-family: 'Lato', sans-serif;
+}
+
+.header,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header__logo {
+    position: relative;
+    width: 13em;
+    margin: 0 auto;
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    @media screen and (min-width: 550px) {
+        margin: 0;
+        width: auto;
+    }
+    &--marco {
+        font-size: 2em;
+        color: #c91e3f;
+    }
+    &--rubio {
+        font-size: 2em;
+        color: #091f3f;
+    }
+    .icon {
+        width: 1.5em;
+        height: 1.5em;
+        position: absolute;
+        top: 0em;
+        left: 9.1em;
+        svg {
+            width: 1.2em;
+            height: 1.2em;
+            fill: #c91e3f;
+        }
+    }
+}
+
+.header__nav {
+    @media screen and (min-width: 550px) {
+        float: right;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        text-align: center;
+
+        @media screen and (min-width: 550px) {
+            flex-direction: row;
+        }
+    }
+    a {
+        display: block;
+        padding: 1em 2em;
+    }
+}
+
+.glyphicon {
+    padding-right: 0.3em;
+}
+
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+.jumbotron {
+    padding: 0em !important;
+    border-bottom: 10px solid darken(#e5e5e5, 20%);
+    // border-top: 10px solid darken(#e5e5e5, 20%);
+    // background-image: url($header-img);
+    // background-size: cover;
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    color: #fff;
+    overflow: hidden;
+
+    // @media screen and (min-width: 550px) {
+        // overflow: hidden;
+        // > div {
+        //     float: right;
+        //     width: 50%;
+        // }
+    // }
+
+    img {
+      width: 100%;
+    }
+
+    .hide-text {
+      position: absolute;
+      left: -999em;
+    }
+
+    h1 {
+        color: #f1f1f1;
+        text-shadow: 1px 1px 1px #333;
+        text-align: center;
+        @media screen and (min-width: 550px) {
+            text-align: right;
+        }
+    }
+
+    .lead {
+        margin-bottom: 1em;
+        text-align: center;
+        font-size: 1.9em;
+        text-shadow: 1px 1px 1px #333;
+        @media screen and (min-width: 550px) {
+            max-width: 25rem;
+            text-align: right;
+            float: right;
+        }
+    }
+    .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+    }
+}
+
+.btn-success {
+    background: #091f3f;
+    border: none;
+    &:hover {
+        background: lighten(#091f3f, 10%);
+    }
+}
+
+.icon {
+    svg {
+        width: 1em;
+        height: 1em;
+    }
+}
+.icon-twitter svg {
+    fill: $twitter;
+}
+.icon-facebook svg {
+    fill: $facebook;
+}
+.icon-youtube svg {
+    fill: $youtube;
+}
+.icon-instagram svg {
+    fill: $instagram;
+}
+
+.mod-box {
+    margin: 1em 0;
+
+    &--alpha {
+        background: lighten($blue, 10%);
+        padding: 2em 0 0;
+        margin-top: -4em;
+        color: #fff;
+
+        h2 {
+            padding: 0 2em;
+        }
+
+        p {
+            padding: 2em;
+        }
+
+        > a {
+            display: block;
+            text-align: center;
+            padding: 1em;
+            background: $blue;
+            color: #fff;
+            &:hover {
+                background: lighten($blue, 5%);
+                text-decoration: none;
+            }
+        }
+    }
+
+    &--beta {
+        background: #fff;
+    }
+
+    &--news {
+        h3 {
+            color: $red;
+        }
+        svg {
+          fill: $red;
+        }
+
+        article {
+            border-bottom: 5px solid rgba($blue, 0.3);
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+.link-box {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    background: #fff;
+    color: #999;
+    font-weight: bold;
+
+    .icon svg {
+      fill: #999;
+    }
+
+    &:hover {
+        background: $red;
+        text-decoration: none;
+        color: #fff;
+
+        .icon svg {
+          fill: #fff;
+        }
+    }
+
+    &--links {
+        background: #fff;
+        text-align: center;
+        padding: 1em;
+        color: #999;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline-block;
+            padding: 1em;
+        }
+        .icon {
+            display: block;
+            padding: 1em;
+            span {
+                display: none;
+            }
+            svg {
+                width: 1.8em;
+                height: 1.8em;
+            }
+            &:hover {
+                background: #d9d9d9;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+.about-wrap {
+    background: $red;
+    padding: 2em 1em;
+    margin: 2em 0;
+    color: #fff;
+    font-size: 1.2em;
+    h3 {
+        font-size: 1.5em;
+    }
+    a {
+        color: darken(white, 10%);
+        text-decoration: underline;
+        &:hover {
+            color: darken(white, 15%);
+        }
+    }
+}
+
+.issues-wrap {
+    margin-bottom: 2em;
+}
+.about-rubio-wrap {
+    background: $blue;
+    padding: 4em;
+    text-align: center;
+    color: #fff;
+}
+
+.container.container--tight {
+    margin: 2em auto;
+    max-width: 700px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.footer {
+    text-align: center;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1020px;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@import "innerpage";

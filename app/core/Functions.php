@@ -1,6 +1,6 @@
 <?php
 
-function getComponent($file, $data = []) {
+function getComponent($file, $data = array()) {
 
 	$docroot = $_SERVER['DOCUMENT_ROOT'];
 	$dirpath = $docroot."/app/views/components/";
@@ -11,7 +11,7 @@ function getComponent($file, $data = []) {
 
 }
 
-function getShared($file, $data = []) {
+function getShared($file, $data = array()) {
 
 	$docroot = $_SERVER['DOCUMENT_ROOT'];
 	$dirpath = $docroot."/app/views/shared/";
@@ -21,10 +21,10 @@ function getShared($file, $data = []) {
 	return require_once $filepath;
 }
 
-function getHeader($options = []) {
+function getHeader($options = array()) {
 	return getShared("header", $options);
 }
 
-function getFooter($options = []) {
+function getFooter($options = array()) {
 	return getShared("footer", $options);
 }

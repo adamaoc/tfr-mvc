@@ -1,12 +1,19 @@
 .inner-page-title {
+  position: relative;
   height: 18em;
   background: $blue;
 
   h1 {
     text-align: left;
     padding-left: 1em;
-    font-size: 2.8em;
-    line-height: 18rem;
+    font-size: 2.2em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    @media screen and (min-width: 550px) {
+        font-size: 2.8em;
+    }
   }
 }
 

@@ -32,32 +32,8 @@
       </article>
     </div>
 
-
-    <div class="col-sm-12">
-      <div class="mod-box">
-        <a href="/media" class="link-box">
-          <h3>
-            <span class="icon">
-              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#image"></use></svg>
-            </span>
-            Media from TexansForRubio
-          </h3>
-        </a>
-      </div>
-    </div>
-
-    <div class="col-sm-12">
-      <div class="mod-box">
-        <a href="https://twitter.com/texansforrubio/" target="_blank" class="link-box">
-          <h3>
-            <span class="icon">
-              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg>
-            </span>
-            @TexansForRubio on Twitter
-          </h3>
-        </a>
-      </div>
-    </div>
+    <?php getComponent('LinkBox', array('newsletter', 'media', 'twitter')); ?>
+    
   </div>
 </div>
 

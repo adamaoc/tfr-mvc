@@ -1,0 +1,29 @@
+.header__logo {
+  position: relative;
+  width: 14em;
+  margin: 0 auto; }
+  .header__logo a:hover {
+    text-decoration: none; }
+  @media screen and (min-width: 550px) {
+    .header__logo {
+      margin: 0;
+      width: auto; } }
+  .header__logo--for {
+    font-size: 2em;
+    color: #d1d1d1; }
+  .header__logo--marco {
+    font-size: 2em;
+    color: #c91e3f; }
+  .header__logo--rubio {
+    font-size: 2em;
+    color: #091f3f; }
+  .header__logo .icon {
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    top: 0em;
+    left: 10.9em; }
+    .header__logo .icon svg {
+      width: 1.2em;
+      height: 1.2em;
+      fill: #c91e3f; }

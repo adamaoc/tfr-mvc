@@ -33,6 +33,21 @@
 
       <div class="row">
         <div class="col-sm-12">
+          <h4>Rubio on the American Dream</h4>
+          <img src="./public/images/media/Rubio-American-Dream.png" alt="Texans for Rubio - Rubio on the American Dream image" width="100%" />
+          <p>"If we take the lead and do what must be done, we’ll expand the American Dream to touch more people and change more lives than ever." - Marco Rubio</p>
+        </div>
+        <div class="col-sm-12">
+          <h4>Rubio This Country is Special</h4>
+          <img src="./public/images/media/Rubio-Special-Country.png" alt="Texans for Rubio - Rubio on the American Dream image" width="100%" />
+          <p>"What we have in this country is special. It is the exception, not the rule. If we lose it there is nothing to replace it." - Marco Rubio</p>
+        </div>
+        <div class="col-sm-12">
+          <h4>Rubio All Americans</h4>
+          <img src="./public/images/media/Rubio-All-Americans.png" alt="Texans for Rubio - Rubio All Americans image" width="100%" />
+          <p>"If I am president... I am the president of all Americans. We can't have a great country if anyone is left behind." - Marco Rubio</p>
+        </div>
+        <div class="col-sm-12">
           <h4>A new President</h4>
           <img src="./public/images/media/a-new-President.jpg" alt="Texans for Rubio A new President image" width="100%" />
           <p>It's time to set a new precedent in Washington by sending a new president to Washington.</p>

@@ -13,7 +13,14 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
+<?php if($data['video']) : ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#video-frame").fitVids();
+  });
+</script>
+<?php endif; ?>
 <!-- <script src="scripts/app.js"></script> -->
 
 <script>

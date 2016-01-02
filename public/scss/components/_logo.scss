@@ -1,0 +1,38 @@
+.header__logo {
+    position: relative;
+    width: 14em;
+    margin: 0 auto;
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    @media screen and (min-width: 550px) {
+        margin: 0;
+        width: auto;
+    }
+    &--for {
+      font-size: 2em;
+      color: #d1d1d1;
+    }
+    &--marco {
+        font-size: 2em;
+        color: #c91e3f;
+    }
+    &--rubio {
+        font-size: 2em;
+        color: #091f3f;
+    }
+    .icon {
+        width: 1.5em;
+        height: 1.5em;
+        position: absolute;
+        top: 0em;
+        left: 10.9em;
+        svg {
+            width: 1.2em;
+            height: 1.2em;
+            fill: #c91e3f;
+        }
+    }
+}

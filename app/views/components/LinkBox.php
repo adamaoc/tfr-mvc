@@ -1,0 +1,35 @@
+<?php
+
+function basicBox($link = '#', $icon = '#image', $text = 'Test', $external = false) {
+  $basicBox = '<div class="col-sm-12"><div class="mod-box">';
+  if($external) {
+    $basicBox .= '<a href="'.$link.'" class="link-box" target="_blank">';
+  }else{
+    $basicBox .= '<a href="'.$link.'" class="link-box">';
+  }
+  $basicBox .= '<h3><span class="icon"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="'.$icon.'"></use></svg></span> '.$text.'</h3>';
+  $basicBox .= '</a></div></div>';
+  return $basicBox;
+}
+
+function getNewsletter() {
+  return basicBox('/newsletter', '#paper', 'Sign Up for our Newsletter');
+}
+function getTwitter() {
+  return basicBox('https://twitter.com/texansforrubio/', '#twitter', '@TexansForRubio', true);
+}
+function getMedia() {
+  return basicBox('/media', '#image', 'Media from TexansForRubio');
+}
+
+foreach ($data as $box) {
+  if($box === 'newsletter') {
+    echo getNewsletter();
+  }elseif($box === 'twitter') {
+    echo getTwitter();
+  }elseif($box === 'media') {
+    echo getMedia();
+  }
+}
+
+?>

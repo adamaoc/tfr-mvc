@@ -17,7 +17,9 @@
     <div class="col-sm-12" style="text-align: center;">
       <h2>This election is a generational choice about what kind of country we will be.</h2>
       <h3>Are you ready for a new American Century?</h3>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/rJIZe6CIDfs" frameborder="0" allowfullscreen></iframe>
+
+      <?php getComponent('flexvid'); ?>
+
       <p>Watch highlight's from Marco's announcement speech at the Freedom Tower in Miami</p>
     </div>
 
@@ -49,4 +51,4 @@
   </div>
 </div>
 
-<?php getFooter(); ?>
+<?php getFooter(array('video' => true)); ?>

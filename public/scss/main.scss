@@ -40,63 +40,17 @@ body {
     border-bottom: 1px solid #e5e5e5;
 }
 
-.header__logo {
-    position: relative;
-    width: 13em;
-    margin: 0 auto;
+@import "components/logo";
 
-    a:hover {
-        text-decoration: none;
-    }
-
-    @media screen and (min-width: 550px) {
-        margin: 0;
-        width: auto;
-    }
-    &--marco {
-        font-size: 2em;
-        color: #c91e3f;
-    }
-    &--rubio {
-        font-size: 2em;
-        color: #091f3f;
-    }
-    .icon {
-        width: 1.5em;
-        height: 1.5em;
-        position: absolute;
-        top: 0em;
-        left: 9.1em;
-        svg {
-            width: 1.2em;
-            height: 1.2em;
-            fill: #c91e3f;
-        }
-    }
+@import "components/nav";
+.site-header {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 815px) {
+    flex-direction: row;
+  }
 }
 
-.header__nav {
-    @media screen and (min-width: 550px) {
-        float: right;
-    }
-    ul {
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        margin: 0;
-        padding: 0;
-        flex-direction: column;
-        text-align: center;
-
-        @media screen and (min-width: 550px) {
-            flex-direction: row;
-        }
-    }
-    a {
-        display: block;
-        padding: 1em 2em;
-    }
-}
 
 .glyphicon {
     padding-right: 0.3em;

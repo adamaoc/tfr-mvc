@@ -28,6 +28,15 @@
         </div>
       </div>
 
+      <div class="container-fluid help-wrap">
+        <div class="container">
+          <div class="col-sm-12">
+            <?php getComponent('mediumposts', $data['posts']); ?>
+          </div>
+        </div>
+      </div>
+
+      <hr>
 
       <div id="how-to-help"></div>
       <div class="container-fluid help-wrap">

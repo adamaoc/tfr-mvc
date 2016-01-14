@@ -1,0 +1,20 @@
+.posts-wrap {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 815px) {
+    flex-direction: row;
+  }
+}
+
+.posts-postbox {
+  border-bottom: 1px solid #888;
+  margin: 1em 0.5em;
+  flex: 1;
+  @media screen and (min-width: 815px) {
+    border-bottom: none;
+  }
+  img {
+    width: 100%;
+    height: auto
+  }
+}

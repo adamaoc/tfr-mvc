@@ -1,0 +1,25 @@
+.posts-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  @media screen and (min-width: 815px) {
+    .posts-wrap {
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+
+.posts-postbox {
+  border-bottom: 1px solid #888;
+  margin: 1em 0.5em;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+  @media screen and (min-width: 815px) {
+    .posts-postbox {
+      border-bottom: none; } }
+  .posts-postbox img {
+    width: 100%;
+    height: auto; }

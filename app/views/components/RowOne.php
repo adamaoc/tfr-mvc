@@ -11,7 +11,7 @@
   <?php getComponent('RubioOnSocial'); ?>
 
   <div class="mod-box">
-    <a href="https://marcorubio.com/team-marco/" target="_blank" class="link-box">
+    <a href="https://marcorubio.com/texas/" target="_blank" class="link-box">
       <h3>
           <span class="icon">
             <svg><use xlink:href="#hammer"></use></svg>

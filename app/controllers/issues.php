@@ -6,6 +6,9 @@ class Issues extends Controller
 	{
     $pagetitle = "Marco Rubio on the Issues";
 		$innerpage = true;
-		$this->view('issues/index', array('pagetitle' => $pagetitle, 'innerpage' => $innerpage));
+		$issuesModel = $this->model('IssuesModel');
+		$issues = $issuesModel->getIssues();
+
+		$this->view('issues/index', array('pagetitle' => $pagetitle, 'innerpage' => $innerpage, 'issues' => $issues));
 	}
 }

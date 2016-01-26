@@ -6,9 +6,11 @@ class Home extends Controller
 	{
 		$newsFeed = $this->model('Newsfeed');
 		$postFeed = $this->model('Postfeed');
+		$issuesModel = $this->model('IssuesModel');
 		$posts = $postFeed->getFeed();
 		$feed = $newsFeed->getFeed();
+		$issues = $issuesModel->getRandom();
 
-		$this->view('home/index', array('feed' => $feed, 'posts' => $posts));
+		$this->view('home/index', array('feed' => $feed, 'posts' => $posts, 'issues' => $issues));
 	}
 }

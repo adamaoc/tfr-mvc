@@ -21,6 +21,9 @@ function getTwitter() {
 function getMedia() {
   return basicBox('/media', '#image', 'Media from TexansForRubio');
 }
+function getIssuesBox() {
+  return basicBox('/issues', '#image', 'More Issues');
+}
 
 foreach ($data as $box) {
   if($box === 'newsletter') {
@@ -29,6 +32,8 @@ foreach ($data as $box) {
     echo getTwitter();
   }elseif($box === 'media') {
     echo getMedia();
+  }elseif($box === 'issues') {
+    echo getIssuesBox();
   }
 }
 

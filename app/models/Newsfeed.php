@@ -7,7 +7,12 @@ class Newsfeed
 
   public function getFeed()
   {
-    $myFeed = simplexml_load_file($this->endpoint);
+		$ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $this->endpoint);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $xmlresponse = curl_exec($ch);
+    $myFeed=simplexml_load_string($xmlresponse);
+
     $obj = array();
 
     date_default_timezone_set('America/Los_Angeles');

@@ -9,3 +9,6 @@
   </div>
 <?php endforeach; ?>
 </div>
+<p style="text-align: right;">
+  <a href="https://medium.com/@texansforrubio" target="_blank">more on medium &raquo;</a>
+</p>

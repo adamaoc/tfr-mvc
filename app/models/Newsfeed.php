@@ -11,6 +11,7 @@ class Newsfeed
     curl_setopt($ch, CURLOPT_URL, $this->endpoint);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $xmlresponse = curl_exec($ch);
+		// var_dump($xmlresponse);
     $myFeed=simplexml_load_string($xmlresponse);
 
     $obj = array();

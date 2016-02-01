@@ -11,11 +11,11 @@
     <?php foreach($data as $item): ?>
       <article>
         <h4>
-          <a href="<?= $item['link'] ?>">
-            <span><?= $item['title'] ?></span>
+          <a href="<?= $item->link ?>">
+            <span><?= $item->title ?></span>
           </a>
         </h4>
-        <p><?= $item['pubDate'] ?></p>
+        <p><?= $item->pubDate ?></p>
       </article>
     <?php endforeach; ?>
   </div>

@@ -9,7 +9,7 @@
       <li><a href="/rubio">About Rubio</a></li>
       <li><a href="/media">Media</a></li>
     </ul>
-    <p>designed and developed by <a href="http://conservativedevs.org" target="_blank">conservative devs</a> and <a href="http://liberty-websites.com" target="_blank">liberty websites</a></p>
+    <p>designed and developed by <?php //<a href="http://conservativedevs.org" target="_blank">conservative devs</a> and?> <a href="http://liberty-websites.com" target="_blank">liberty websites</a> and <a href="http://ampnetmedia.com" target="_blank">ampnetmedia</a></p>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

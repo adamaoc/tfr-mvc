@@ -8,6 +8,16 @@
     <a href="https://twitter.com/texansforrubio" target="_blank">@TexansForRubio</a>
   </div>
 
+
+  <div class="mod-box--alpha" style="margin-top: 1em;">
+    <h2>
+      <span class="icon icon-twitter"><svg><use xlink:href='#facebook'></use></svg></span>
+        Like us on Facebook
+    </h2>
+    <p>Join the strong community of Texans supporting Marco on Facebook!</p>
+    <a href="https://www.facebook.com/groups/marcorubioforpresidenttexas/" target="_blank">Marco Rubio TX</a>
+  </div>
+
   <?php getComponent('RubioOnSocial'); ?>
 
   <div class="mod-box">
@@ -31,11 +41,12 @@
       </h3>
     </a>
   </div>
-
-  <div class="mod-box">
-    <a href="https://twitter.com/texansforrubio/lists/teammaco-by-state" target="_blank" class="link-box">
-      <h3>#TeamMarco</h3>
-      <p>State by state on Twitter.</p>
-    </a>
-  </div>
+<?php
+  // <div class="mod-box">
+  //   <a href="https://twitter.com/texansforrubio/lists/teammaco-by-state" target="_blank" class="link-box">
+  //     <h3>#TeamMarco</h3>
+  //     <p>State by state on Twitter.</p>
+  //   </a>
+  // </div>
+  ?>
 </div>

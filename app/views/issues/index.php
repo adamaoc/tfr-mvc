@@ -8,9 +8,9 @@
     <div class="col-sm-12">
       <h3>On the issues:</h3>
       <?php getComponent('issuesposts', $data['issues']); ?>
-      
 
-    <?php getComponent('LinkBox', array('newsletter', 'media', 'twitter')); ?>
+
+    <?php getComponent('LinkBox', array('newsletter', 'media', 'twitter', 'volunteer')); ?>
 
   </div>
 </div>

@@ -21,7 +21,7 @@
   <?php getComponent('RubioOnSocial'); ?>
 
   <div class="mod-box">
-    <a href="https://marcorubio.com/texas/" target="_blank" class="link-box">
+    <a href="https://docs.google.com/forms/d/1CVsxBpnqCFyoZpGImNmIqYSgDb6ItCT3upl274whsCA/viewform?c=0&w=1" target="_blank" class="link-box">
       <h3>
           <span class="icon">
             <svg><use xlink:href="#hammer"></use></svg>

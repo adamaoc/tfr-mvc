@@ -1,0 +1,52 @@
+{
+	"siteLinks": [{
+		"pagename": "Home",
+		"slug": "home",
+		"image": "#home",
+		"details": "Homepage",
+		"link": "/",
+		"target": "_self"
+	},{
+		"pagename": "About Us",
+		"slug": "about",
+		"image": "#about",
+		"details": "About Texans for Rubio",
+		"link": "/about",
+		"target": "_self"
+	},{
+		"pagename": "Help",
+		"slug": "help",
+		"image": "#help",
+		"details": "How you can help",
+		"link": "/help",
+		"target": "_self"
+	},{
+		"pagename": "Issues",
+		"slug": "issues",
+		"image": "#issues",
+		"details": "Marco on the issues",
+		"link": "/issues",
+		"target": "_self"
+	},{
+		"pagename": "Media",
+		"slug": "media",
+		"image": "#media",
+		"details": "Media from Texans for Rubio",
+		"link": "/media",
+		"target": "_self"
+	},{
+		"pagename": "Newsletter",
+		"slug": "newsletter",
+		"image": "#newsletter",
+		"details": "TFR Newsletter",
+		"link": "/newsletter",
+		"target": "_self"
+	},{
+		"pagename": "About Rubio",
+		"slug": "rubio",
+		"image": "#rubio",
+		"details": "Learn more about Marco Rubio",
+		"link": "/rubio",
+		"target": "_self"
+	}]
+}

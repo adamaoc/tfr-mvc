@@ -45,6 +45,7 @@
       <h3>How to help:</h3>
       <p>Want to get involved but not really sure how you could help? Here are some tips.</p>
       <ul>
+        <li>Sign our quick <a href="https://docs.google.com/forms/d/1CVsxBpnqCFyoZpGImNmIqYSgDb6ItCT3upl274whsCA/viewform?c=0&w=1" target="_blank">Google Form</a> to sign up to volunteer!</li>
         <li>Be active on Social Media - if you're on twitter, reach out.</li>
         <li>Get together with family and neighbors and actually discuss politics.</li>
         <li>Reach out on <a href="http://marcorubio.com/team-marco/" target="_blank">MarcoRubio.com</a> and sign up for their newsletter and request to help.</li>

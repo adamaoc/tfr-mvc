@@ -29,7 +29,7 @@
         <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="stylesheet" href="./public/css/main.css">
+        <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT']; ?>/public/css/main.css">
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 

@@ -37,7 +37,7 @@
         </a>
       </div>
     </div>
-    
+
     <div class="col-sm-12">
       <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
@@ -76,6 +76,7 @@
 
 <!--End mc_embed_signup-->
 </div>
+<?php getComponent('LinkBox', array('volunteer')); ?>
     </div>
   </div>
 </div>

@@ -8,6 +8,7 @@
       <li><a href="/issues">Issues</a></li>
       <li><a href="/rubio">About Rubio</a></li>
       <li><a href="/media">Media</a></li>
+      <li><a href="/sitemap">Sitemap</a></li>
     </ul>
     <p>designed and developed by <?php //<a href="http://conservativedevs.org" target="_blank">conservative devs</a> and?> <a href="http://liberty-websites.com" target="_blank">liberty websites</a> and <a href="http://ampnetmedia.com" target="_blank">ampnetmedia</a></p>
 </div>

@@ -24,6 +24,9 @@ function getMedia() {
 function getIssuesBox() {
   return basicBox('/issues', '#image', 'More Issues');
 }
+function getVolunteerBox() {
+  return basicBox('https://docs.google.com/forms/d/1CVsxBpnqCFyoZpGImNmIqYSgDb6ItCT3upl274whsCA/viewform?c=0&w=1', '#hammer', 'Volunteer', true);
+}
 
 foreach ($data as $box) {
   if($box === 'newsletter') {
@@ -34,6 +37,8 @@ foreach ($data as $box) {
     echo getMedia();
   }elseif($box === 'issues') {
     echo getIssuesBox();
+  }elseif($box === 'volunteer') {
+    echo getVolunteerBox();
   }
 }
 

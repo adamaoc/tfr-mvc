@@ -176,6 +176,19 @@ body {
             }
         }
     }
+    &--alt a {
+      background: $blue;
+      color: white;
+      &:hover {
+        background: lighten($blue, 10%);
+      }
+      h3 {
+        margin: 0.5em 0;
+      }
+      span {
+        font-size: 1.3em;
+      }
+    }
 
     &--beta {
         background: #fff;
@@ -286,6 +299,17 @@ body {
     max-width: 700px;
     font-size: 1.2em;
     text-align: justify;
+}
+
+.imgwrap {
+  margin-bottom: 2em;
+  img {
+    max-width: 100%;
+  }
+}
+
+#video-frame {
+  margin: 2em auto;
 }
 
 .footer {

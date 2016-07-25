@@ -20,7 +20,7 @@
 
   <?php getComponent('RubioOnSocial'); ?>
 
-  <div class="mod-box">
+  <?php /*<div class="mod-box">
     <a href="https://docs.google.com/forms/d/1CVsxBpnqCFyoZpGImNmIqYSgDb6ItCT3upl274whsCA/viewform?c=0&w=1" target="_blank" class="link-box">
       <h3>
           <span class="icon">
@@ -29,7 +29,7 @@
         Volunteer
       </h3>
     </a>
-  </div>
+  </div> */ ?>
 
   <div class="mod-box">
     <a href="/media" class="link-box">
@@ -41,12 +41,4 @@
       </h3>
     </a>
   </div>
-<?php
-  // <div class="mod-box">
-  //   <a href="https://twitter.com/texansforrubio/lists/teammaco-by-state" target="_blank" class="link-box">
-  //     <h3>#TeamMarco</h3>
-  //     <p>State by state on Twitter.</p>
-  //   </a>
-  // </div>
-  ?>
 </div>

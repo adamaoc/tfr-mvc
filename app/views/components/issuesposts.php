@@ -9,4 +9,3 @@
     </article>
   <?php endforeach; ?>
 </div>
-<?php print_r($_SERVER); ?>

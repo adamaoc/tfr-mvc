@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div class="col-sm-12">
+      <?php /* <div class="col-sm-12">
         <div class="mod-box">
           <a href="https://marcorubio.com/team-marco/" target="_blank" class="link-box">
             <h3>
@@ -80,14 +80,14 @@
             </h3>
           </a>
         </div>
-      </div>
+      </div> */ ?>
 
       <div class="col-sm-12">
         <div class="mod-box">
           <a href="https://twitter.com/texansforrubio/" target="_blank" class="link-box">
             <h3>
               <span class="icon">
-                <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg>
+                <svg><use xlink:href="#twitter"></use></svg>
               </span>
               @TexansForRubio on Twitter
             </h3>

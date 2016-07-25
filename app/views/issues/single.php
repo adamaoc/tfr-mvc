@@ -19,7 +19,7 @@
         </a>
       </div>
       <hr>
-    <?php getComponent('LinkBox', array('newsletter', 'media', 'twitter', 'volunteer')); ?>
+    <?php getComponent('LinkBox', array('newsletter', 'media', 'twitter')); ?>
 
   </div>
 </div>

@@ -6,7 +6,7 @@
 
 <div class="container inner-main-wrap">
     <div class="col-sm-12">
-      <?php getComponent('LinkBox', array('volunteer')); ?>
+      <?php /*getComponent('LinkBox', array('volunteer')); */?>
       <p>Want to get involved but not really sure how you could help? Here are some tips.</p>
       <ul>
         <li>Be active on Social Media - if you're on twitter, reach out.</li>

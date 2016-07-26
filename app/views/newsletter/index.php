@@ -49,7 +49,7 @@
     </div>
   <!--End mc_embed_signup-->
   </div>
-  <?php getComponent('LinkBox', array('media', 'twitter', 'volunteer')); ?>
+  <?php getComponent('LinkBox', array('media', 'twitter')); ?>
 
 </div>
 

@@ -10,7 +10,7 @@
       <?php getComponent('issuesposts', $data['issues']); ?>
 
 
-    <?php getComponent('LinkBox', array('newsletter', 'media', 'twitter', 'volunteer')); ?>
+    <?php getComponent('LinkBox', array('newsletter', 'media', 'twitter')); ?>
 
   </div>
 </div>

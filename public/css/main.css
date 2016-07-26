@@ -5010,6 +5010,15 @@ body {
       .mod-box--alpha > a:hover {
         background: #0c2a55;
         text-decoration: none; }
+  .mod-box--alt a {
+    background: #091f3f;
+    color: white; }
+    .mod-box--alt a:hover {
+      background: #0f356c; }
+    .mod-box--alt a h3 {
+      margin: 0.5em 0; }
+    .mod-box--alt a span {
+      font-size: 1.3em; }
   .mod-box--beta {
     background: #fff; }
   .mod-box--news h3 {
@@ -5088,6 +5097,14 @@ body {
   max-width: 700px;
   font-size: 1.2em;
   text-align: justify; }
+
+.imgwrap {
+  margin-bottom: 2em; }
+  .imgwrap img {
+    max-width: 100%; }
+
+#video-frame {
+  margin: 2em auto; }
 
 .footer {
   text-align: center; }

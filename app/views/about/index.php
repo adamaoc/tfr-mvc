@@ -76,7 +76,7 @@
 
 <!--End mc_embed_signup-->
 </div>
-<?php getComponent('LinkBox', array('volunteer')); ?>
+<?php /* getComponent('LinkBox', array('volunteer')); */?>
     </div>
   </div>
 </div>
